@@ -109,18 +109,4 @@ public class DicionarioServant extends java.rmi.server.UnicastRemoteObject imple
 		}
 	}
 
-	// public static void main(String[] args) {
-	// 	DicionarioServant a;
-	// 	try {
-	// 		a = new DicionarioServant();
-	// 		System.out.println("Adicionar: " + a.adicionar("teste", "significa teste"));
-	// 		System.out.println("Consultar: " + a.consultar("teste"));
-	// 		System.out.println("Remover: " + a.remover("teste"));
-	// 		System.out.println("Consultar: " + a.consultar("teste"));
-	// 	} catch (Exception e) {
-	// 		// TODO Auto-generated catch block
-	// 		e.printStackTrace();
-	// 	}		
-	// }
-
 }
